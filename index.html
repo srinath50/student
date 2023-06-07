@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   
+    <div class="image"><img src="logo.jpg" alt="logo" ></div>
+    <h2>Student Registration Form</h2>
+    <form action="">
+      <div>
+        <div class="fname">
+          <label class="f" for="fname"><b>Firstname:</b></label
+          ><br />
+          <input type="text" id="fname" /><br />
+        </div>
+        <div class="lname">
+          <label for="lname"><b>Lastname:</b></label
+          ><br />
+          <input type="text" id="lname" /><br />
+        </div>
+        <hr />
+        <div class="centering">
+          <label for="gender"><b>Gender:</b></label
+          ><br />
+          <input type="radio" id="male" value="Male" name="gender" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" value="Female" name="gender" />
+          <label for="female">Female</label><br />
+          <label for="dob"><b>Date of Birth:</b></label
+          ><br />
+          <input type="date" id="dob" value="dob" name="dob" placeholder="Your DOB" /><br />
+          <label for="rno"><b>Register Number:</b></label
+          ><br />
+          <input
+            type="number"
+            id="rno"
+            placeholder="Your Reg.No here..."
+          /><br />
+        </div>
+        <hr />
+        <div class="add1">
+          <label for="peradr"><b>Permenant Address:</b></label
+          ><br />
+          <input
+            type="text"
+            id="peradr"
+            placeholder="Your address here..."
+          /><br />
+        </div>
+        <div class="add2">
+          <label for="comadr"><b>Communication Address:</b></label
+          ><br />
+          <input
+            type="text"
+            id="comadr"
+            placeholder="Your address here..."
+          /><br />
+        </div>
+        <hr />
+        <div class="class1">
+          <label for="dept"><b>Department:</b></label
+          ><br />
+          <select id="dept" name="dept">
+            <option class="fade" value="" disabled selected >Your Department</option>
+            <option value="BE-EEE">BE-EEE</option>
+            <option value="BE-CSE">BE-CSE</option>
+            <option value="BE-IT">BE-IT</option>
+            <option value="BE-AIDS">BE-AIDS</option>
+            <option value="BE-ECE">BE-ECE</option>
+            <option value="BE-MECH">BE-MECH</option></select
+          ><br />
+          <label for="cocu"><b>Co-Curricular activities:</b></label
+          ><br /></div>
+          <div class="checkbox">
+          <input
+            type="checkbox"
+            id="Swimming"
+            value="Swimming"
+            name="Swimming"
+          />
+          <label for="Swimming">Swimming</label>
+
+          <input type="checkbox" id="Cricket" value="Cricket" name="Cricket" />
+          <label style="margin: 10px" for="Cicket">Cricket</label>
+          <input
+            type="checkbox"
+            id="Volleyball"
+            value="Volleyball"
+            name="Volleyball"
+          />
+          <label for="Volleyball">Volleyball</label>
+          <input
+            type="checkbox"
+            id="Football"
+            value="Football"
+            name="Football"
+          />
+          <label for="Football">Football</label><br />
+        </div></div>
+        <hr>
+        <div class="main">
+          <div class="nation">
+            <label for="nat"><b>Nationality:</b></label
+            ><br />
+            <input class="list" list="nationality" name="nat" id="nat" />
+            <datalist id="nationality">
+              <option value="India"></option>
+              <option value="Pakistan"></option>
+              <option value="China"></option>
+              <option value="Nepal"></option>
+              <option value="Korea"></option></datalist
+            ><br />
+          </div>
+          <div class="reli">
+            <label for="rel"><b>Relegion:</b></label
+            ><br />
+            <input class="list" list="Religion" name="rel" id="rel" />
+            <datalist id="Religion">
+              <option value="Hindu"></option>
+              <option value="Christian"></option>
+              <option value="Muslim"></option></datalist
+            ><br />
+          </div>
+          <div class="caste">
+            <label for="cast"><b>Caste:</b></label
+            ><br />
+            <input class="list" list="caste" name="cast" id="cast" />
+            <datalist id="caste">
+              <option value="BC"></option>
+              <option value="MBC"></option>
+              <option value="SC"></option>
+              <option value="ST"></option>
+              <option value="Others"></option>
+            </datalist>
+            <br />
+          </div>
+        </div><br><br>
+        <input type="submit" name="submit" value="Submit"><br>
+        <input type="reset" name="reset" value="Reset">
+      </div>
+    </form>
+  </body>
+</html>

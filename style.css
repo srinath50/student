@@ -1,0 +1,147 @@
+img{
+    width: 100px;
+    margin-top: 10px;
+    border: 3px solid #00eaff;
+    border-radius: 50%;
+}
+.image{
+    background-color: aliceblue;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+}
+input[type="text"]{
+    width: 70%;
+    margin:10px 10px 10px 10px;
+    background-color:white;
+    border-radius: 5px;
+    border: 2px solid rgb(138, 200, 255);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    height: 25px;
+}
+div.fname{
+    margin-top: 20px;
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+}
+div.lname{
+    margin-top: 20px;
+    float:right;
+    width: 50%;
+    margin-bottom: 20px;
+}
+input[type="date"]{
+    border-radius: 5px;
+    height: 25px;
+    width: 150px;
+    border: 2px solid rgb(138, 200, 255);
+    margin:10px 10px 10px 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+
+}
+input[type="number"]{
+    height: 25px;
+    width: 150px;
+    border: 2px solid rgb(138, 200, 255);
+    border-radius: 5px;
+    margin:10px 10px 10px 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+select{
+    border: 2px solid rgb(138, 200, 255);
+    width:50%;
+    margin:10px 10px 10px 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 5px;
+    height: 25px;
+    width: 150px;
+}
+label{
+    margin:10px
+}
+input:focus{
+    background-color:aliceblue ;
+    border: 3px sold #555;
+}
+input.list{
+    border: 2px solid rgb(138, 200, 255);
+    border-radius: 5px;
+    width:80%;
+    margin:10px 10px 10px 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    height: 25px;
+}
+body{
+    background: white ;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-style: double;
+    border: 3px solid #00eaff;
+    font-family: sans-serif;
+    text-align: center;
+}
+hr{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 83%;
+    border: 1px solid #00eaff;
+}
+div.add1{
+    float: left;
+    width: 50%;
+}
+div.add2{
+    float: right;
+    width: 50%;
+}
+div.centering{
+   
+}
+div.nation{
+    float: left;
+    width: 30%;
+}
+div.reli{
+    float: right;
+    width: 25%;
+}
+div.caste{
+    margin: 0 auto;
+    width: 25%;
+}
+input[type="submit"]{
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(127, 172, 255);
+    height: 30px;
+    border: 0;
+}
+input[type="submit"]:hover{
+    background-color: rgb(103, 153, 244);
+}
+.checkbox{
+    margin:10px
+}
+input[type="reset"]{
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(71, 226, 229);
+    height: 25px;
+    border: 0;
+}
+input[type="reset"]:hover{
+    background-color:rgb(28, 211, 214);
+}
+.fade{
+    opacity: initial;
+}
